@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">IndoorLocl</string>
-    <string name="title_activity_testactivity">testactivity</string>
-    <string name="title_activity_get_ble_rssi">GetBleRSSI</string>
-</resources>
