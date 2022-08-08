@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0ffff"
+    android:layout_margin="0dp">
+
+    tools:context="com.example.my.indoorlocl.GetBleRSSI">
+
+    <TextView android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:textColor="#ff00ff"
+        android:text="Bluetooth RSSI" />
+    <Button android:id="@+id/button1"
+        android:layout_width = "wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="#fffff0"
+        android:textColor="#000000"
+        android:text="Get bluetooth RSSI"
+        android:onClick="samepage"/>
+    <TextView android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:textColor="#ff00ff"/>
+
+</LinearLayout>
+
